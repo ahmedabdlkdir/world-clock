@@ -1,0 +1,64 @@
+body {
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.world-clock {
+    width: 650px;
+    height: 850px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EFF3F6;
+    box-sizing: border-box;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+.world-clock-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.world-clock-container .city {
+    background-color: #ffffff;
+    width: 590px ;
+    margin: 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    /*background-color: red;
+    */display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+.city::before{
+       content: '';
+       display: inline-block;
+       width: 15px;
+       height: 15px;
+        border-radius: 7.5px;
+       -moz-border-radius: 7.5px;
+       -webkit-border-radius: 7.5px;
+       background-color: #F59D60;
+    }
+
+    .city-name {
+        margin-left: -125px;
+    }
+
+.city-name .txt-city-continent{
+    margin-top: -15px;
+}
