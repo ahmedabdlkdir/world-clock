@@ -44,7 +44,7 @@ body {
     -o-border-radius: 12px;
 }
 
-.city::before{
+/* .city::before{
        content: '';
        display: inline-block;
        width: 15px;
@@ -53,11 +53,23 @@ body {
        -moz-border-radius: 7.5px;
        -webkit-border-radius: 7.5px;
        background-color: #F59D60;
-    }
+    } */
 
-    .city-name {
+
+.city-name h2 {
+    color: #29273A;
+}
+
+.city .city-date {
+    color: #A6A6A6
+}
+
+.city .city-time {
+    color: #29273A;;
+}
+    /* .city-name {
         margin-left: -125px;
-    }
+    } */
 
 .city-name .txt-city-continent{
     margin-top: -15px;
